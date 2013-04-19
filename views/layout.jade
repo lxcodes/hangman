@@ -2,8 +2,7 @@ doctype 5
 html
   head
     title Hangman!
-    link(rel='stylesheet', href='/stylesheets/style.css')
-    script(type='text/javascript', src="/javascripts/jquery.min.js")
-    script(type='text/javascript', src="/javascripts/main.js")
+    != css('style')
+    != js('main')
   body
     block content
