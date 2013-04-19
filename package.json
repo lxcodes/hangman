@@ -7,6 +7,9 @@
   },
   "dependencies": {
     "express": "3.1.1",
-    "jade": "*"
+    "jade": "*",
+    "connect-assets":"*",
+    "stylus":"*",
+    "coffee-script":"*"
   }
 }
